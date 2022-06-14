@@ -26,6 +26,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         imagePicker.sourceType = .camera
     }
     
+    @IBAction func extraButtonTapped(_ sender: Any) {
+    }
     
 }
   

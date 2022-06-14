@@ -45,6 +45,15 @@
                                     <color key="baseForegroundColor" red="0.94735647798788669" green="0.85592899754270468" blue="0.67909616697914565" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaZ-wN-rWO">
+                                <rect key="frame" x="156" y="551" width="104" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Extra Button"/>
+                                <connections>
+                                    <action selector="extraButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7E8-zT-MQG"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aXL-Kf-lrV">
                                 <rect key="frame" x="102" y="266.5" width="210" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
